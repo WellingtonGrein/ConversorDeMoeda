@@ -7,7 +7,7 @@ public class ConversorDeMoedas {
         Scanner scanner = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("#,##0.00");
 
-        System.out.println("Bem-vindo à calculadora de conversão de moedas!");
+        System.out.println("Conversor de Moedas");
 
         System.out.println("Selecione a moeda de origem:");
         TipoMoeda moedaOrigem = selecionarMoeda(scanner);
